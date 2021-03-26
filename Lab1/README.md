@@ -1,6 +1,6 @@
 # Laboratorium 1 - Aplikacja startowa - Kalkulator
 
-Zadaniem tego laboratorium było utworzenie kalkulatora. W tym celu tworzyłam go za pomocą Expo. Treść zadań i zagadnień do realizacji:
+Zadaniem tego laboratorium było utworzenie kalkulatora. W tym celu tworzyłam go za pomocą **Expo**. Treść zadań i zagadnień do realizacji:
 
 ![Treść zadań](https://i.imgur.com/1bufSBx.png)
 
