@@ -45,7 +45,7 @@ Tutaj zdefiniowane są wszystkie ekrany wraz z właściwościami jakie przyjmuj�
 
 ![](https://i.imgur.com/mQskMXG.png)
 
-1. **Strona główna "Home"**
+### 1. **Strona główna "Home"**
 
 Styl dla strony głównej, jak i dla innych komponentów jest w pliku styles.js. Występują tu trzy przyciski oraz fotografia na górze strony.
 
@@ -59,7 +59,7 @@ Wygląd ekranu:
 
 ![](https://i.imgur.com/oAVJnLl.png)
 
-2. **Spread Operator**
+### 2. **Spread Operator**
 
 Na początku zadeklarowałam example, calls, arr i key zawierające przykładowe kody dla danego zagadnienia.
 
@@ -77,7 +77,7 @@ Wygląd ekranu:
 
 ![](https://i.imgur.com/hvMRL6R.png)
 
-3. **Rest Parameters** 
+### 3. **Rest Parameters** 
 
 Rest Parameters posada przyciski pod tekstem, natomiast sam tekst podzielony w kolumnie. Na samym początku znów zadeklarowane są zmienne z przykładowym kodem, następnie cały wygląd strony jest "zawinięty" w widok z odpowiadającymi stylami.
 
@@ -91,7 +91,7 @@ Wygląd ekranu:
 
 ![](https://i.imgur.com/j0ISYAN.png)
 
-4. **UseState**
+### 4. **UseState**
 
 Ostatnim ekranem jest UseState, w którym podzielona została strona w proporcji 40%-60%. Dodane jest również zdjęcie, jak i fragment kodu.
 
