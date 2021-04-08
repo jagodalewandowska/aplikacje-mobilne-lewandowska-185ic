@@ -6,7 +6,11 @@ Zadaniem tego laboratorium było utworzenie 3 ekranów za pomocą react-navigati
 
 ### Spis treści:
 
-...
+1. [Konfigurowanie nawigacji](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#wykonanie-zadania-wraz-ze-zrzutami-ekranu)
+2. [Wygląd oraz działanie](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#wygl%C4%85d-poszczeg%C3%B3lnych-ekran%C3%B3w)
+    - [Strona główna](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab1#animacja-dla-podstawowych-dzia%C5%82a%C5%84-kalkulatora)
+
+
 
 ## Wykonanie zadania wraz ze zrzutami ekranu
 
@@ -39,7 +43,7 @@ Tutaj zdefiniowane są wszystkie ekrany wraz z właściwościami jakie przyjmuj�
 
 ![](https://i.imgur.com/mQskMXG.png)
 
-1. **Strona główna "Home"**
+1. ### **Strona główna "Home"**
 
 Styl dla strony głównej, jak i dla innych komponentów jest w pliku styles.js. Występują tu trzy przyciski oraz fotografia na górze strony.
 
@@ -49,7 +53,7 @@ Ustawione zostały parametry flex dla całości panelu "nav" oraz paneli. Ustawi
 
 ![](https://i.imgur.com/h1xSbFd.png)
 
-2. **Spread Operator**
+2. ### **Spread Operator**
 
 Na początku zadeklarowałam example, calls, arr i key zawierające przykładowe kody dla danego zagadnienia.
 
@@ -63,7 +67,7 @@ Styles.js dzielący na pół stronę, zawijanie tekstów, ustawienie marginesów
 
 ![](https://i.imgur.com/BnLnEf7.png)
 
-3. **Rest Parameters** 
+3. ### **Rest Parameters** 
 
 Rest Parameters posada przyciski pod tekstem, natomiast sam tekst podzielony w kolumnie. Na samym początku znów zadeklarowane są zmienne z przykładowym kodem, następnie cały wygląd strony jest "zawinięty" w widok z odpowiadającymi stylami.
 
@@ -73,7 +77,7 @@ Fragment **styles.js**:
 
 ![](https://i.imgur.com/MpIosZ4.png)
 
-4. **UseState**
+4. ### **UseState**
 
 Ostatnim ekranem jest UseState, w którym podzielona została strona w proporcji 40%-60%. Dodane jest również zdjęcie, jak i fragment kodu.
 
