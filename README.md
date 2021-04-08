@@ -5,4 +5,7 @@
 
 
 ---
-### Lab 1 - [Kalkulator](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab1)
+### Lab 1 - [Kalkulator](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab1)  
+
+---
+### Lab 2 - [Nawigacja](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2)
