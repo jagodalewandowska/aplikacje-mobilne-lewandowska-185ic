@@ -156,7 +156,7 @@ styles.state = StyleSheet.create({
     },
     text: {
         fontSize: 12,
-        color: "#fff",
+        color: "white",
         fontWeight: "bold",
         alignSelf: "center",
         marginLeft: 10,
