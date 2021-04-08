@@ -8,7 +8,10 @@ Zadaniem tego laboratorium było utworzenie 3 ekranów za pomocą react-navigati
 
 1. [Konfigurowanie nawigacji](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#wykonanie-zadania-wraz-ze-zrzutami-ekranu)
 2. [Wygląd oraz działanie](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#wygl%C4%85d-poszczeg%C3%B3lnych-ekran%C3%B3w)
-    - [Strona główna](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab1#animacja-dla-podstawowych-dzia%C5%82a%C5%84-kalkulatora)
+    - [Strona główna](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#1-strona-g%C5%82%C3%B3wna-home)
+    - [Spread Operator](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#2-spread-operator)
+    - [Rest Parameters](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#3rest-parameters)
+    - [Use State](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#4-usestate)
 
 
 
