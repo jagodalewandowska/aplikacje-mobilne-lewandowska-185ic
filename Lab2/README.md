@@ -12,7 +12,7 @@ Zadaniem tego laboratorium było utworzenie 3 ekranów za pomocą react-navigati
     - [Spread Operator](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#2-spread-operator)
     - [Rest Parameters](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#3rest-parameters)
     - [Use State](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#4-usestate)
-3. [Animacja]()
+3. [Animacja](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#animacja-przechodzenia-pomi%C4%99dzy-ekranami)
 
 ## Wykonanie zadania wraz ze zrzutami ekranu
 
