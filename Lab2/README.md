@@ -51,7 +51,7 @@ Styl dla strony głównej, jak i dla innych komponentów jest w pliku styles.js.
 
 ![](https://i.imgur.com/CUh0GZS.png)
 
-Ustawione zostały parametry flex dla całości panelu "nav" oraz paneli. Ustawienie elewacji, marginesów czy koloru dla przycisków - wielkość obrazka. Wszystkie elementy znajdują się jeden pod drugim.
+Ustawione zostały parametry flex dla całości panelu "nav" oraz paneli. Ustawienie wyglądu, marginesów dla przycisków oraz wielkość obrazka. Wszystkie elementy znajdują się jeden pod drugim.
 
 ![](https://i.imgur.com/h1xSbFd.png)
 
