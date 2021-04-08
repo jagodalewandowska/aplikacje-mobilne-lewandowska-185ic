@@ -12,8 +12,7 @@ Zadaniem tego laboratorium było utworzenie 3 ekranów za pomocą react-navigati
     - [Spread Operator](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#2-spread-operator)
     - [Rest Parameters](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#3rest-parameters)
     - [Use State](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab2#4-usestate)
-
-
+3. [Animacja]()
 
 ## Wykonanie zadania wraz ze zrzutami ekranu
 
@@ -46,7 +45,7 @@ Tutaj zdefiniowane są wszystkie ekrany wraz z właściwościami jakie przyjmuj�
 
 ![](https://i.imgur.com/mQskMXG.png)
 
-### 1. **Strona główna "Home"**
+1. **Strona główna "Home"**
 
 Styl dla strony głównej, jak i dla innych komponentów jest w pliku styles.js. Występują tu trzy przyciski oraz fotografia na górze strony.
 
@@ -56,7 +55,11 @@ Ustawione zostały parametry flex dla całości panelu "nav" oraz paneli. Ustawi
 
 ![](https://i.imgur.com/h1xSbFd.png)
 
-### 2. **Spread Operator**
+Wygląd ekranu:
+
+![](https://i.imgur.com/oAVJnLl.png)
+
+2. **Spread Operator**
 
 Na początku zadeklarowałam example, calls, arr i key zawierające przykładowe kody dla danego zagadnienia.
 
@@ -70,7 +73,11 @@ Styles.js dzielący na pół stronę, zawijanie tekstów, ustawienie marginesów
 
 ![](https://i.imgur.com/BnLnEf7.png)
 
- ### 3.**Rest Parameters** 
+Wygląd ekranu:
+
+![](https://i.imgur.com/hvMRL6R.png)
+
+3. **Rest Parameters** 
 
 Rest Parameters posada przyciski pod tekstem, natomiast sam tekst podzielony w kolumnie. Na samym początku znów zadeklarowane są zmienne z przykładowym kodem, następnie cały wygląd strony jest "zawinięty" w widok z odpowiadającymi stylami.
 
@@ -80,7 +87,11 @@ Fragment **styles.js**:
 
 ![](https://i.imgur.com/MpIosZ4.png)
 
-### 4. **UseState**
+Wygląd ekranu:
+
+![](https://i.imgur.com/j0ISYAN.png)
+
+4. **UseState**
 
 Ostatnim ekranem jest UseState, w którym podzielona została strona w proporcji 40%-60%. Dodane jest również zdjęcie, jak i fragment kodu.
 
@@ -93,3 +104,11 @@ Ustawianie w **styles.js**:
 A także ustalenie wartości dla tekstu, wygląd kodu oraz wielkość obrazka:
 
 ![](https://i.imgur.com/WOioqz4.png)
+
+Wygląd ekranu:
+
+![](https://i.imgur.com/U9QRMIW.png)
+
+## Animacja przechodzenia pomiędzy ekranami
+
+![](https://im2.ezgif.com/tmp/ezgif-2-2d7c458a73e6.gif)
