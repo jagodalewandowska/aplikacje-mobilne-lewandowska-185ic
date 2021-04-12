@@ -16,10 +16,10 @@ export default function Home({navigation}) {
           <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('First')}>
             <Text style={styles.home.text}>First Step</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('First')}>
+          <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('Second')}>
             <Text style={styles.home.text}>Second Step</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('First')}>
+          <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('Third')}>
             <Text style={styles.home.text}>Third Step</Text>
           </TouchableOpacity>
         </View>

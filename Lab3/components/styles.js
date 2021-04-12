@@ -28,7 +28,7 @@ styles.home = StyleSheet.create({
     }
 });
 
-styles.spread = StyleSheet.create({
+styles.sort = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
@@ -36,13 +36,10 @@ styles.spread = StyleSheet.create({
     },
     ctr: {
         flex: 1,
-        flexDirection: 'row',
+        flexDirection: 'column',
         flexWrap: 'wrap',
         alignItems: 'flex-start',
         marginTop: 20
-    },
-    about: {
-        width: '50%'     
     },
     txt: {
         marginTop: 10,

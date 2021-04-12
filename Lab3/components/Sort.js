@@ -4,25 +4,30 @@ import styles from './styles';
 
 export default function Sort({navigation}) {
   return (
-    <View style={styles.home.nav}>
-    <Image source={{ uri: 'https://images.unsplash.com/photo-1541345023926-55d6e0853f4b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8YW5kcm9pZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}} style={styles.home.img} />
-        <View style={styles.home.panels}>
-          <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('Sort')}>
-           <Text style={styles.home.text}>Sortowanie oraz filtrowanie</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('Lazy')}>
-            <Text style={styles.home.text}>Lazy Loading</Text>
-          </TouchableOpacity>      
-          <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('First')}>
-            <Text style={styles.home.text}>First Step</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('First')}>
-            <Text style={styles.home.text}>Second Step</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.home.button} onPress={() => navigation.push('First')}>
-            <Text style={styles.home.text}>Third Step</Text>
-          </TouchableOpacity>
-        </View>
+    <View style={styles.sort.container}>      
+      {/* Nawigacja */}
+      <View style={styles.sort.nav}>
+        <TouchableOpacity style={styles.sort.home} onPress={() => navigation.push('Strona Główna')}>
+            <Text style={styles.sort.text}>Home</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.sort.button} onPress={() => navigation.push('Lazy Loading')}>
+            <Text style={styles.sort.text}>Lazy</Text>
+        </TouchableOpacity>      
+        <TouchableOpacity style={styles.sort.button} onPress={() => navigation.push('First')}>
+            <Text style={styles.sort.text}>1st Step</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.sort.button} onPress={() => navigation.push('Second')}>
+            <Text style={styles.sort.text}>2nd Step</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.sort.button} onPress={() => navigation.push('Third')}>
+            <Text style={styles.sort.text}>3rd Step</Text>
+        </TouchableOpacity>
       </View>
-    );
-  }
+      <View style={styles.sort.ctr}>
+        <View style={styles.sort.about}>
+          <Text style={styles.sort.txt}> Spread Operator (ang. spread syntax) pozwala na rozwinięcie iterowalnego wyrażenia (jak wyrażenie tablicowe lub ciąg znaków) - w takich miejscach, gdzie oczekiwanych jest zero lub więcej argumentów (dla wywołań funkcji) lub elementów (dla iterałów tablicowych). </Text>             
+        </View>
+      </View>     
+    </View> 
+  );
+}
