@@ -3,8 +3,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from './components/Home';
 import First from './components/First';
-import Second from './components/Second';
-import Third from './components/Third';
 import Lazy from './components/Lazy';
 import Sort from './components/Sort';
 
@@ -67,32 +65,6 @@ export default function App(){
         }} 
           name='First' 
           component={First} />
-        <Stack.Screen  options={{
-        title: 'Second Step',
-        headerStyle: {
-          backgroundColor: '#AEDEE0',
-        },
-        headerTintColor: '#1F1F1F',
-        headerTitleStyle: {
-          fontSize: 20,
-          color: 'white',
-        }
-      }} 
-        name='Second' 
-        component={Second} />
-        <Stack.Screen  options={{
-        title: 'Third Step',
-        headerStyle: {
-          backgroundColor: '#AEDEE0',
-        },
-        headerTintColor: '#1F1F1F',
-        headerTitleStyle: {
-          fontSize: 20,
-          color: 'white',
-        }
-      }} 
-        name='Third' 
-        component={Third} />
       </Stack.Navigator>
     </NavigationContainer>
   );
