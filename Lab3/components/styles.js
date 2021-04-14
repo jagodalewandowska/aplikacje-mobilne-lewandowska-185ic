@@ -14,7 +14,7 @@ styles.home = StyleSheet.create({
         marginTop: 10,
         elevation: 6,
         backgroundColor: "#006164",
-        paddingVertical: 30
+        paddingVertical: 37
     },
     text: {
         fontSize: 12,
@@ -37,103 +37,73 @@ styles.sort = StyleSheet.create({
     ctr: {
         flex: 1,
         flexDirection: 'column',
-        flexWrap: 'wrap',
-        alignItems: 'flex-start',
-        marginTop: 20
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: 20,
+        justifyContent: 'space-around'
     },
-    txt: {
-        marginTop: 10,
-        marginLeft: 10,
-        marginRight: 10,
+    txt: {        
         fontWeight: 'bold',
         fontSize: 15,
-        textAlign: 'justify'
+        alignSelf: "center",
+        margin: '2%',
+        padding: '2%',        
     },
     nav: {
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'space-around'
+        justifyContent: 'space-around',
     },
     button: {
         marginTop: 10,
         elevation: 6,
         backgroundColor: "#006164",
+        borderRadius: 15,
+        paddingVertical: 7,
+        paddingHorizontal: 12
+    },
+    text: {
+        fontSize: 12,
+        color: "white",
+        fontWeight: "bold",
+        alignSelf: "center",
+        textTransform: "uppercase",
+    },
+    home: {
+        marginTop: 10,
+        elevation: 6,
+        backgroundColor: "#41A7A7",
         borderRadius: 15,
         paddingVertical: 7,
         paddingHorizontal: 12,
     },
-    text: {
-        fontSize: 12,
-        color: "white",
-        fontWeight: "bold",
-        alignSelf: "center",
-        textTransform: "uppercase"
-    },
-    home: {
+    btn: {
         marginTop: 10,
         elevation: 6,
-        backgroundColor: "#41A7A7",
-        borderRadius: 15,
-        paddingVertical: 7,
-        paddingHorizontal: 12
-    }
-});
-
-styles.rest = StyleSheet.create({
-    container: {
+        backgroundColor: '#17868F',
+        paddingVertical: 15,
+        paddingHorizontal: 10,  
+        color: 'white'      
+    },
+    nums: {
+        flex:1,
+        padding: 2,
+        margin: 2,
+        backgroundColor: '#41A7A7',
+        paddingVertical: 15,
+        paddingHorizontal: '40%',
+        alignSelf: "center",
+    },
+    loaded: {
         flex: 1,
-        justifyContent: 'center'
-    },
-    text: {
-        flex: 1,
-        textAlign: 'center',
-        alignItems: 'center',        
-    },
-    txt: {
-        marginTop: '5%',
-        marginLeft: 15,
-        marginRight: 15,
-        fontSize: 15,
-        fontWeight: 'bold',
-        textAlign: 'justify'
-    },
-    code: {
-        color: 'white',
-        backgroundColor: '#68ABAC',
-        marginTop: 10,
-        marginLeft: 20,
-        marginRight: 20,
-        fontSize: 12,        
-        borderWidth: 1,
-        borderRadius: 4,
-        borderColor: 'black'
-    },
-    nav: {
-        flex: 1,
-        flexDirection: 'row',
+        flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'space-around'
-    },
-    button: {
-        elevation: 6,
-        backgroundColor: "#006164",
-        borderRadius: 15,
-        paddingVertical: 7,
-        paddingHorizontal: 12
-    },
-    text: {
-        fontSize: 12,
-        color: "#fff",
-        fontWeight: "bold",
-        alignSelf: "center",
-        textTransform: "uppercase"
-    },
-    home: {
-        elevation: 6,
-        backgroundColor: "#41A7A7",
-        borderRadius: 15,
-        paddingVertical: 7,
-        paddingHorizontal: 12
+        justifyContent: 'center',
+        margin: '3%',
+        padding: '5%',
+        justifyContent: 'space-around',
+        backgroundColor: '#41A7A7',
+        color: 'white'
     }
 });
 
@@ -170,7 +140,7 @@ styles.state = StyleSheet.create({
         flexDirection: 'row',
         flexWrap: 'wrap',
         alignItems: 'flex-start',
-        marginTop: 20
+        marginLeft: 10
     },
     btn: {
         width: '40%'     
@@ -198,6 +168,9 @@ styles.state = StyleSheet.create({
     },
     img: {
         height: 180
+    },
+    steps: {
+        color:'#17868F',
     }
 });
 
