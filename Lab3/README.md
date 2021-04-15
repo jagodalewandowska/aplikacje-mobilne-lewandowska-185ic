@@ -74,7 +74,7 @@ Wykorzystana została funkcja **forceUpdate()**, która w przypadku, kiedy metod
 
 Ekran sortowania wygląda więc następująco:
 
-![image-20210415103630933](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab3/screenshots/10.png)
+![image-20210415103630933](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab3/screenshots/10v2.png)
 
 ## Lazy.js oraz Loading.js - Lazy Loading
 
