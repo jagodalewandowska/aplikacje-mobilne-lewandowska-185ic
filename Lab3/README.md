@@ -4,7 +4,11 @@
 
 ### Spis treści:
 
-...
+1. [Wykonanie zadania](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab3#wykonanie-zadania-wraz-ze-zrzutami-ekranu)
+    - [Sortowanie danych](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab3#sortjs---sortowanie-danych)
+    - [Lazy Loading](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab3#lazyjs-oraz-loadingjs---lazy-loading)
+    - [Step Progress](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab3#step-progress)
+2. [Animacje](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab3#animacje)
 
 ## Wykonanie zadania wraz ze zrzutami ekranu
 
