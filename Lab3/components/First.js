@@ -29,8 +29,7 @@ export default function First ({navigation}) {
             label="Pierwszy krok"
             nextBtnTextStyle={styles.state.steps} 
             previousBtnTextStyle={styles.state.steps}
-            nextBtnText={'Dalej'}
-            previousBtnText={'Cofnij'}>
+            nextBtnText={'Dalej'}>
             <View style={styles.sort.ctr}>
               <Text style={styles.sort.txt}>To jest pierwszy ekran! ProgressSteps przyjmują inne parametry dla paska progresu, również zostały zastosowane zmiany do przycisków na dole ekranu.</Text>
             </View>
