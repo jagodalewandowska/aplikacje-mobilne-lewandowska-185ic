@@ -31,7 +31,7 @@ export class Sort extends Component {
     const numbers = [];
     // Losowanie podstawowej tablicy liczb po otworzeniu okna
     for (let i = 0; i < 100; i++) {
-      numbers.push(Math.floor(Math.random() * 1000)+1);        
+      numbers.push(Math.floor(Math.random() * 999)+2);        
     }
     this.state = { 
       numbers
@@ -54,7 +54,7 @@ export class Sort extends Component {
   randomize = () => {
     const randomized = []
     for (let i = 0; i < this.state.numbers.length; i++) {
-      randomized.push(Math.floor(Math.random() * 1000));
+      randomized.push(Math.floor(Math.random() * 999)+2);
     }
     this.state.numbers = randomized;
     this.forceUpdate();
