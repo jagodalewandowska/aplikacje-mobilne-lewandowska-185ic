@@ -137,4 +137,4 @@ Ostatnim ekranem jest ten z odnośnikiem do Strony głównej.  Zmiana tekstu, do
 
 Wygląd ekranów i przejść:
 
-![image-20210415121006918](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab3/screenshots/17.png)
+![image-20210415121006918](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab3/screenshots/17v2.png)
