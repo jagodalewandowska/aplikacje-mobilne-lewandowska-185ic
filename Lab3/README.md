@@ -138,3 +138,17 @@ Ostatnim ekranem jest ten z odnośnikiem do Strony głównej.  Zmiana tekstu, do
 Wygląd ekranów i przejść:
 
 ![image-20210415121006918](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab3/screenshots/17v2.png)
+
+## Animacje
+
+1. Sortowanie
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab3/screenshots/sorting.gif)
+
+2. Lazy Loading
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab3/screenshots/lazy.gif)
+
+3. Step progress
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab3/screenshots/steps.gif)
