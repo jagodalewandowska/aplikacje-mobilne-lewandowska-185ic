@@ -29,9 +29,9 @@ export class Lazy extends Component {
       </View>   
       <Text style={styles.sort.txt}>Lazy loading - inaczej on-demand loading służy do ładowania ciężkich zasobów tylko w momencie, kiedy są potrzebne. Najczęściej używane jest podczas ładowania obrazów.</Text> 
       <View style={styles.sort.loaded}>
-          <Suspense fallback={<Text>Trwa ładowanie...</Text>}>
-            <Loading length='150000'/>
-          </Suspense>
+        <Suspense fallback={<Text>Trwa ładowanie...</Text>}>
+          <Loading length='150000'/>
+        </Suspense>
       </View>     
     </View>
     )
