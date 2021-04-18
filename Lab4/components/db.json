@@ -1,0 +1,125 @@
+{
+    "artists": [
+        {
+            "id": 1,
+            "artist": "Queen",
+            "albums": [
+                {
+                    "id": 11,
+                    "title": "A night at the Opera",                    
+                    "year": 1975,
+                    "favourite": "Bohemian Rhapsody",
+                    "charts": [
+                        {
+                            "Australia": 1,
+                            "UK": 1,
+                            "Japan": 9
+                        }
+                    ],
+                    "singers": [
+                        {
+                            "first": "Freddie Mercury",
+                            "second": "Brian May",
+                            "third": "Roger Taylor",
+                            "fourth": "John Deacon" 
+                        }
+                    ]        
+                },       
+                {
+                    "id": 12,
+                    "title": "A Day at the Races",
+                    "year": 1976,
+                    "favourite": "Somebody to Love",
+                    "charts": [
+                        {
+                            "Australia": 8,
+                            "UK": 1,
+                            "Japan": 1
+                        }
+                    ],
+                    "singers": [
+                        {
+                            "first": "Freddie Mercury",
+                            "second": "Brian May",
+                            "third": "Roger Taylor",
+                            "fourth": "John Deacon" 
+                        }
+                    ]                    
+                }         
+            ]
+        },
+        {
+            "id": 2,
+            "artist": "ABBA",
+            "albums": [
+                {
+                    "id": 21,
+                    "title": "Arrival",
+                    "year": 1976,
+                    "favourite": "Dancing Queen",
+                    "ages": [
+                        {
+                            "Agnetha": 26,
+                            "Björn": 31,
+                            "Benny": 30,
+                            "Anni-Frid": 31
+                        }
+                    ],
+                    "charts": [
+                        {
+                            "Australia": 1,
+                            "UK": 1,
+                            "Japan": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "title": "Voulez-Vous",
+                    "year": 1979,
+                    "favourite": "Gimme! Gimme! Gimme!",
+                    "ages": [
+                        {
+                            "Agnetha": 29,
+                            "Björn": 34,
+                            "Benny": 33,
+                            "Anni-Frid": 34
+                        }
+                    ],
+                    "charts": [
+                        {
+                            "Australia": 5,
+                            "UK": 1,
+                            "Japan": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "instruments": [
+        {
+            "id": 1,
+            "name": "violin",
+            "earlierst evidence": 1530,
+            "construction elements": [
+                {
+                    "upper half": "scroll, pegbox, neck, fingerboard",
+                    "waist and lower half": "bridge, f-holes, fine tuners, tailpiece, chinrest"
+                }
+            ]            
+        },
+        {
+            "id": 2,
+            "name": "piano",            
+            "earlierst evidence": 1655,
+            "construction elements": [
+                {
+                    "upper": "frame, lid, front part, capo bar, damper, lid, back part, bridge, hitch pin, frame, sound board, string",
+                    "lower": "damper mechanism, sostenuto rail, pedal mechanism, rods, pedals"
+                }
+            ]
+        }
+    ]
+}
