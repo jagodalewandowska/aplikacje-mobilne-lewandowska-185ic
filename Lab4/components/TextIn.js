@@ -102,7 +102,7 @@ export class TextIn extends Component {
               </TouchableOpacity>
             </View>
             <View style={styles.body.ex}>
-              <Text style={styles.body.txt}>3. Zablokowanie input po wciśnięciu przycisku</Text>
+              <Text style={styles.body.txt}>3. Blokada edycji TextInput (oraz odblokowanie) po wciśnięciu przycisku</Text>
               <View style={styles.body.byside}>
                 <TextInput style = {styles.body.input2}                
                   placeholder = "Wpisz coś"
