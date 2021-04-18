@@ -2,13 +2,13 @@ import React, { useState, useEffect }  from 'react';
 import { TouchableOpacity, View, Text } from 'react-native';
 import styles from './styles';
 
-export default function ToastAndroid({navigation}) {  
+export default function Switch({navigation}) {  
   return (
     <View style={styles.con.container}> 
       {/* Nawigacja */}
       <View style={styles.con.nav}>       
-        <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('TextInput')}>
-            <Text style={styles.con.text}>Toast</Text>
+        <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('TextIn')}>
+            <Text style={styles.con.text}>TextInput</Text>
         </TouchableOpacity> 
         <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('Select')}>
             <Text style={styles.con.text}>Select</Text>

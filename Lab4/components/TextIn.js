@@ -1,8 +1,8 @@
 import React, { useState, useEffect }  from 'react';
-import { TouchableOpacity, View, Text } from 'react-native';
+import { TouchableOpacity, View, Text, TextInput } from 'react-native';
 import styles from './styles';
 
-export default function TextInput ({navigation}) {  
+export default function TextIn({navigation}) {  
   return (
     <View style={styles.con.container}> 
       {/* Nawigacja */}

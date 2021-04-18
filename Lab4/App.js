@@ -6,7 +6,7 @@ import Switch from './components/Switch';
 import Select from './components/Select';
 import DatePicker from './components/DatePicker';
 import ToastAndroid from './components/ToastAndroid';
-import TextInput from './components/TextInput';
+import TextIn from './components/TextIn';
 
 const Stack = createStackNavigator();
 
@@ -40,7 +40,7 @@ export default function App(){
           }
         }} 
           name='TextInput' 
-          component={TextInput} />
+          component={TextIn} />
         <Stack.Screen options={{
           title: 'Select',
           headerStyle: {
