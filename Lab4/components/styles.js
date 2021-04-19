@@ -113,6 +113,8 @@ styles.body = StyleSheet.create({
     }
 });
 
+// ----------- Switch - Modal ----------- //
+
 styles.modal = StyleSheet.create({
     center: {
         flexDirection: 'row',
