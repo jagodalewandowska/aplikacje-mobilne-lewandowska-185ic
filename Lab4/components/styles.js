@@ -82,7 +82,7 @@ styles.body = StyleSheet.create({
     txt: {        
         fontWeight: 'bold',
         fontSize: 15,
-        margin: '1%',  
+        margin: '1%'
     },
     input: {
         margin: 5,
@@ -133,13 +133,13 @@ styles.modal = StyleSheet.create({
         fontSize: 30,
         backgroundColor: '#006164',
         padding: '5%',
-        borderRadius: 15,    },
+        borderRadius: 15
+    },
     switch: {
         flexDirection: 'row',
         flex: 1,
         justifyContent: 'center',   
-        width: '100%' ,
-        marginTop: 20
+        width: '100%' 
     },
     modal: {
         transform: [{ scaleX: 1.2 }, 

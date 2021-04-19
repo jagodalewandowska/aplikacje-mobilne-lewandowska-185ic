@@ -105,7 +105,9 @@ export class Toaster extends Component {
           </TouchableOpacity>
         </View>   
         <View style={{flex: 1, padding: 20}}>
-          <Text style={styles.body.txt}>Kliknij w element, aby otworzyć modal: </Text>
+          <View style={{marginBottom: 20}}>
+            <Text style={{textAlign: 'justify'}}>ToastAndroid API dostarcza show(message, duration), która przyjmuje parametry message - wiadomość dla toast, duration - jak długo będzie trwała oraz showWithGravity(message, duration, gravity) oraz showWithGravityAndOffset(message, duration, gravity, xOffset, yOffset), które pozwalają na określenie w którym miejscu się wyświetli.</Text>
+          </View>          
           <ToastButton />
         </View>
       </View>      
