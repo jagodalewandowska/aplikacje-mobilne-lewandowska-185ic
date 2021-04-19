@@ -113,4 +113,37 @@ styles.body = StyleSheet.create({
     }
 });
 
+styles.modal = StyleSheet.create({
+    center: {
+        flexDirection: 'row',
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',        
+    },
+    centered: {
+        flex: 1,
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    text: {
+        color: 'white',
+        fontSize: 30,
+        backgroundColor: '#006164',
+        padding: '5%',
+        borderRadius: 15,
+    },
+    switch: {
+        flexDirection: 'row',
+        flex: 1,
+        justifyContent: 'center',   
+        width: '100%' ,
+        marginTop: 20
+    },
+    modal: {
+        transform: [{ scaleX: 1.2 }, 
+            { scaleY: 1.2 }],
+    }
+});
+
 export default styles;

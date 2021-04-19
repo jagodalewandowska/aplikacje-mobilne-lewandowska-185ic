@@ -2,9 +2,9 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from './components/Home';
-import Switch from './components/Switch';
+import Switcher from './components/Switch';
 import Select from './components/Select';
-import DatePicker from './components/DatePicker';
+import DatePick from './components/DatePicker';
 import ToastAndroid from './components/ToastAndroid';
 import TextIn from './components/TextIn';
 
@@ -66,7 +66,7 @@ export default function App(){
           }
         }} 
           name='Switch' 
-          component={Switch} />
+          component={Switcher} />
         <Stack.Screen  options={{
           title: 'Date Picker',
           headerStyle: {
@@ -79,7 +79,7 @@ export default function App(){
           }
         }} 
           name='DatePicker' 
-          component={DatePicker} />
+          component={DatePick} />
         <Stack.Screen  options={{
           title: 'ToastAndroid',
           headerStyle: {
