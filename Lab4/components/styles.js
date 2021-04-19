@@ -133,8 +133,7 @@ styles.modal = StyleSheet.create({
         fontSize: 30,
         backgroundColor: '#006164',
         padding: '5%',
-        borderRadius: 15,
-    },
+        borderRadius: 15,    },
     switch: {
         flexDirection: 'row',
         flex: 1,
