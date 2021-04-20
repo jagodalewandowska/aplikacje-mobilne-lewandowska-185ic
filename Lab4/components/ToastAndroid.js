@@ -10,13 +10,13 @@ export default function(props) {
 
 const Toast = ({ visible }) => {
   if (visible) {
-      ToastAndroid.showWithGravityAndOffset(
-          "Toast",
-          ToastAndroid.LONG,
-          ToastAndroid.CENTER,
-          25,
-          50
-      );
+    ToastAndroid.showWithGravityAndOffset(
+        "Toast",
+        ToastAndroid.LONG,
+        ToastAndroid.CENTER,
+        25,
+        50
+    );
   }
   return null;
 };
@@ -40,9 +40,9 @@ const ToastButton = () => {
     let time = Math.floor(Math.random() * 10000);
     setTime(time)
     myPromise = new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve('hide');
-        }, time);
+      setTimeout(() => {
+          resolve('hide');
+      }, time);
     });
   }
 
@@ -57,24 +57,24 @@ const ToastButton = () => {
           handleButtonPress()
           createPromise()
           myPromise.then((value) => {
-              if(value == 'hide'){
-                  setswitchOn(false)
-              }
-          });          
+            if(value == 'hide'){
+              setswitchOn(false)
+            }
+        });          
       }}/>
       <Modal
-          animationType="fade"
-          visible={switchOn}
-          transparent={true}
-          onRequestClose={() => {
-              setModalVisible(!switchOn);
-          }}
+        animationType="fade"
+        visible={switchOn}
+        transparent={true}
+        onRequestClose={() => {
+            setModalVisible(!switchOn);
+        }}
       >
         <View style={styles.modal.center}>
-            <View style={styles.modal.centered}>
-                <Text onPress={onToggleSwitch}> Wyłączenie modala za: </Text>
-                <Text style={styles.modal.text}>{time/1000}s</Text>
-            </View>
+          <View style={styles.modal.centered}>
+              <Text onPress={onToggleSwitch}> Wyłączenie modala za: </Text>
+              <Text style={styles.modal.text}>{time/1000}s</Text>
+          </View>
         </View>
       </Modal> 
     </View>
