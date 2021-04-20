@@ -28,7 +28,7 @@ export class TextIn extends Component {
     this.setState({ email: text })
   }
   handleAlert(name, email){
-    alert("Witaj " + name + ", Twój adres email to" + email + ".");
+    alert("Witaj " + name + ", Twój adres email to " + email + ".");
   }
 
   // Przykład 2
