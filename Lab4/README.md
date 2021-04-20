@@ -197,10 +197,20 @@ Działanie:
 
 #### 1. TextInput
 
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab4/screenshots/text.gif)
+
 #### 2. Select
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab4/screenshots/select.gif)
 
 #### 3. Switch
 
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab4/screenshots/switch.gif)
+
 #### 4. DatePicker
 
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab4/screenshots/date.gif)
+
 #### 5. ToastAndroid
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab4/screenshots/toast.gif)
