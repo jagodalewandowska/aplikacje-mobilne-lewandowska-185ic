@@ -2,28 +2,23 @@
     "artists": [
         {
             "id": 1,
-            "artist": "John Lennon",
-            "band": "The Beatles"
+            "name": "The Beatles"
         },
         {
             "id": 2,
-            "name": "Freddie Mercury",
-            "band": "Queen"
+            "name": "Queen"
         },
         {
             "id": 3,
-            "name": "Alex Tremble",
-            "band": "Two Door Cinema Club"
+            "name": "Two Door Cinema Club"
         },
         {
             "id": 4,
-            "name": "Wesley Schultz",
-            "band": "The Lumineers"
+            "name": "The Lumineers"
         },
         {
             "id": 5,
-            "name": "Brandon Flowers",
-            "band": "The Killers"
+            "name": "The Killers"
         }
     ]    
 }
