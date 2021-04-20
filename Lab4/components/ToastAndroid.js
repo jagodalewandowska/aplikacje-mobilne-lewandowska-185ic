@@ -9,16 +9,16 @@ export default function(props) {
 }
 
 const Toast = ({ visible }) => {
-    if (visible) {
-        ToastAndroid.showWithGravityAndOffset(
-            "Toast",
-            ToastAndroid.LONG,
-            ToastAndroid.CENTER,
-            25,
-            50
-        );
-    }
-    return null;
+  if (visible) {
+      ToastAndroid.showWithGravityAndOffset(
+          "Toast",
+          ToastAndroid.LONG,
+          ToastAndroid.CENTER,
+          25,
+          50
+      );
+  }
+  return null;
 };
 
 const ToastButton = () => {
