@@ -46,7 +46,7 @@ W tym przykładzie wykorzystałam *placeholder*, *keyboardType* oraz *onChangeTe
 
 - **Przykład 2** - TextInput z wieloma liniami 
 
-![image-20210420113852058](C:\Users\Jagoda\AppData\Roaming\Typora\typora-user-images\image-20210420113852058.png)
+![image-20210420113852058](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab4/screenshots/33.png)
 
 Wykorzystanie *multiline*, *numberOfLines*, ustawionym tekstem domyślnym *value* wykorzystującym tekst z konstruktora, onChangeText który wywołuje funkcję *handleMultiline* oraz ustawienie maksymalnego długości tekstu *maxLength*. 
 
