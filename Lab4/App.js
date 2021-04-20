@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from './components/Home';
 import Switcher from './components/Switch';
-import Select from './components/Select';
+import Selecter from './components/Select';
 import DatePick from './components/DatePicker';
 import ToastAndroid from './components/ToastAndroid';
 import TextIn from './components/TextIn';
@@ -53,7 +53,7 @@ export default function App(){
           }
         }}  
           name='Select' 
-          component={Select} />
+          component={Selecter} />
         <Stack.Screen  options={{
           title: 'Switch',
           headerStyle: {
