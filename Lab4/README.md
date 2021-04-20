@@ -1,6 +1,21 @@
 # Laboratorium 4 - Obsługa danych wprowadzanych przez użytkownika + modale
 
-![image-20210420112245608](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab4/screenshots/1.png)
+![image-20210420112245608](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab4/screenshots/1.png)  
+
+## Spis treści
+
+1. [Wykonanie zadania](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#wykonanie-zadania-wraz-ze-zrzutami-ekranu)
+    - [TextInput](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#textinput---komponent-textinjs)
+    - [Select](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#selectpicker---komponent-selectjs)
+    - [Switch](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#switch---komponent-switchjs)
+    - [DatePicker](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#datepicker---komponent-datepickerjs)
+    - [ToastAndroid](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#toastandroid---komponent-toastandroidjs)
+2. [Animacje](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#animacje)
+    - [TextInput](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#1-textinput)
+    - [Select](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#2-select)
+    - [Switch](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#3-switch)
+    - [DatePicker](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#4-datepicker)
+    - [ToastAndroid](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab4#5-toastandroid)
 
 ## Wykonanie zadania wraz ze zrzutami ekranu
 
