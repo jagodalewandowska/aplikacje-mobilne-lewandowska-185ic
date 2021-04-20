@@ -13,7 +13,7 @@ export class TextIn extends Component {
     super(props);
     this.state = {
       name: "",
-      colour: "",
+      email: "",
       multiline: "TextInput is a foundational component for inputting text into the app via a keyboard. Props provide configurability for several features, such as auto-correction, auto-capitalization, placeholder text, and different keyboard types, such as a numeric keypad.",
       editable: false
     }
@@ -24,11 +24,11 @@ export class TextIn extends Component {
   handleName = (text) => {
     this.setState({ name: text })
   }    
-  handleColour = (text) => {
-    this.setState({ colour: text })
+  handleEmail = (text) => {
+    this.setState({ email: text })
   }
-  handleAlert(name, colour){
-    alert("Witaj " + name + ", Twój ulubiony kolor to " + colour + ".");
+  handleAlert(name, email){
+    alert("Witaj " + name + ", Twój adres email to" + email + ".");
   }
 
   // Przykład 2
@@ -78,11 +78,12 @@ export class TextIn extends Component {
                     onChangeText = {this.handleName}
                   />
                   <TextInput style = {styles.body.input}
-                    placeholder = "Ulubiony kolor"
-                    onChangeText = {this.handleColour}
+                    placeholder = "Adres email"
+                    onChangeText = {this.handleEmail}
+                    keyboardType = "email-address"
                   />
                 </View> 
-                <TouchableOpacity style={styles.body.btn} onPress = { () => {this.handleAlert(this.state.name, this.state.colour)}}>
+                <TouchableOpacity style={styles.body.btn} onPress = { () => {this.handleAlert(this.state.name, this.state.email)}}>
                   <Text style={styles.home.text}>Wyślij</Text>
                 </TouchableOpacity>
             </View>
