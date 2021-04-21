@@ -9,15 +9,7 @@ export default function(props) {
 }
 
 export class First extends Component {  
-  state = {
-    bands: [
-      {'id': 1, 'band': 'Queen'},
-      {'id': 2, 'band': 'The Beatles'},
-      {'id': 3, 'band': 'The Killers'},
-      {'id': 4, 'band': 'The Lumineers'},
-      {'id': 5, 'band': 'Bee Gees'}
-    ]
-  }
+  
   render(){
     const { navigation } = this.props;   
     return (
@@ -30,7 +22,7 @@ export class First extends Component {
           <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('Second')}>
               <Text style={styles.con.text}>Second</Text>
           </TouchableOpacity>          
-          <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('TouchableOpacity')}>
+          <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('Touchable')}>
               <Text style={styles.con.text}>TouchableOpacity</Text>
           </TouchableOpacity>        
           <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('Swipeable')}>
