@@ -143,16 +143,58 @@ styles.first = StyleSheet.create({
         padding: '10%',
         textAlign: 'justify',
         marginBottom: '3%'
-    },
-    item: {
-        margin: '2%',
-        elevation: 6,
-        backgroundColor: "#006164",
-        paddingVertical: 20,
-        width: '100%',
-        color: 'white',
-        fontWeight: 'bold'
     }
 });
+
+styles.second = StyleSheet.create({
+    item: {
+        elevation: 6,
+        backgroundColor: "#006164",
+        paddingVertical: 15,
+        width: '100%',
+        color: 'white',
+        fontWeight: 'bold',
+        marginBottom: '2%'
+    },
+    nav: {
+        flex: 1,
+        marginRight: '2%'
+    },
+    ctr: {
+        flex: 1,
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        alignItems: 'flex-start',
+        marginTop: 20,
+        margin: '2%'
+    },
+    btn: {
+        width: '40%',
+    },
+    about: {
+        width: '60%'
+    },
+    txt: {
+        margin: 10,
+        marginTop: 0,
+        fontWeight: 'bold',
+        fontSize: 12,
+        textAlign: 'justify'
+    },
+    img: {
+        height: 120,
+        marginBottom: '6%',
+        margin: '3%'
+    },
+    txt2: {
+        margin: '2%',
+        fontWeight: 'bold',
+        fontSize: 12,
+        textAlign: 'justify',
+        backgroundColor: '#B5DFDF',
+        padding: '5%'
+    }
+});
+
 
 export default styles;
