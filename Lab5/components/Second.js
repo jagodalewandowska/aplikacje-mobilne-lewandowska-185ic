@@ -48,6 +48,17 @@ export class Second extends Component {
           <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('Swipeable')}>
               <Text style={styles.con.text}>Swipeable</Text>
           </TouchableOpacity>
+        </View>              
+        <View style={styles.con.nav}>
+          <ScrollView horizontal={true}>
+            <Image source={{ uri: 'https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vdW50YWlufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}} style={styles.second.img2}/>
+            <Image source={{ uri: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}} style={styles.second.img2}/>
+            <Image source={{ uri: 'https://images.unsplash.com/photo-1547093349-65cdba98369a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}} style={styles.second.img2}/>
+            <Image source={{ uri: 'https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1347&q=80'}} style={styles.second.img2}/>
+            <Image source={{ uri: 'https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80'}} style={styles.second.img2}/>
+            <Image source={{ uri: 'https://images.unsplash.com/photo-1575908524891-b0bdd2b99f90?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fG1vdW50YWlufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}} style={styles.second.img2}/>
+            <Image source={{ uri: 'https://images.unsplash.com/photo-1472791108553-c9405341e398?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG1vdW50YWlufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'}} style={styles.second.img2}/>
+          </ScrollView>
         </View>   
         <View style={styles.second.ctr}>
           <View style={styles.second.btn}>

@@ -193,6 +193,11 @@ styles.second = StyleSheet.create({
         textAlign: 'justify',
         backgroundColor: '#B5DFDF',
         padding: '5%'
+    },
+    img2: {
+        marginTop: 20,
+        height: 100,
+        width: 100
     }
 });
 
