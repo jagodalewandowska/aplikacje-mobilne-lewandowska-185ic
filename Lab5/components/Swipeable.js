@@ -27,7 +27,7 @@ export class Swipeable extends Component {
           <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('Second')}>
               <Text style={styles.con.text}>Second</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('TouchableOpacity')}>
+          <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('Touchable')}>
               <Text style={styles.con.text}>TouchableOpacity</Text>
           </TouchableOpacity> 
         </View>   
