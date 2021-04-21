@@ -113,4 +113,46 @@ styles.body = StyleSheet.create({
     }
 });
 
+// -------------------------------------------- //
+
+styles.first = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        flexDirection: 'column'
+    },
+    ctr: {
+        flex: 1,
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        alignItems: 'flex-start',
+        marginTop: 20
+    },
+    about: {
+        width: '49%'     
+    },
+    txt: {
+        margin: 10,
+        marginTop: 0,
+        fontWeight: 'bold',
+        fontSize: 15,
+        textAlign: 'justify'
+    },
+    mid: {
+        backgroundColor: '#B5DFDF',
+        padding: '10%',
+        textAlign: 'justify',
+        marginBottom: '3%'
+    },
+    item: {
+        margin: '2%',
+        elevation: 6,
+        backgroundColor: "#006164",
+        paddingVertical: 20,
+        width: '100%',
+        color: 'white',
+        fontWeight: 'bold'
+    }
+});
+
 export default styles;

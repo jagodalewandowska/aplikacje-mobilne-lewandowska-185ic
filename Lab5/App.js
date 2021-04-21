@@ -28,7 +28,7 @@ export default function App(){
           name="Strona Główna" 
           component={Home} />        
         <Stack.Screen options={{
-          title: 'First',
+          title: 'Pierwszy ScrollView',
           headerStyle: {
             backgroundColor: '#69BABA',
           },
