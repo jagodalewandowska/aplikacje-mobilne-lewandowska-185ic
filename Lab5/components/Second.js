@@ -65,8 +65,7 @@ export class Second extends Component {
             <View style={styles.second.nav}>
             <Text style={styles.second.txt}> Flexbox works the same way in React Native as it does in CSS on the web, with a few exceptions. The defaults are different, with flexDirection defaulting to column instead of row, alignContent defaulting to flex-start instead of stretch, flexShrink defaulting to 0 instead of 1, the flex parameter only supporting a single number. </Text>
             <Image source={{ uri: 'https://images.unsplash.com/photo-1549880181-56a44cf4a9a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}} style={styles.second.img} />
-            <Text style={styles.second.txt2}> flex will define how your items are going to “fill” over the available space along your main axis. Space will be divided according to each element's flex property. </Text>
-            <Text style={styles.second.txt}>flexDirection - controls the direction in which the children of a node are laid out. It can be changed to: column, row, column-reverse, row-reverse - style.</Text>
+            <Text style={styles.second.txt2}> flex will define how your items are going to “fill” over the available space along your main axis.</Text>
             </View>
           </View>
           <View style={styles.second.about}>
