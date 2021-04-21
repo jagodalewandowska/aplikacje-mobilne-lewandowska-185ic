@@ -41,7 +41,7 @@ export default function App(){
           name='First' 
           component={First} />
         <Stack.Screen options={{
-          title: 'Second',
+          title: 'Drugi ScrollView',
           headerStyle: {
             backgroundColor: '#69BABA',
           },
