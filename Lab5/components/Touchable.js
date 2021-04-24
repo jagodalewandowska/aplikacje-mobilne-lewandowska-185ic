@@ -13,7 +13,6 @@ export class Touchable extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      countTO: 0,
       countTH: 0,
       search: '',
       show: false
@@ -24,9 +23,6 @@ export class Touchable extends Component {
     this.setState({
        countTH: this.state.countTH + 1
     });
-  };
-
-  onPressSearch = () => {
   };
 
   handleName = (text) => {
