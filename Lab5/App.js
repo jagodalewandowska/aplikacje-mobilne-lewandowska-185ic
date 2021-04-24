@@ -5,7 +5,7 @@ import Home from './components/Home';
 import First from './components/First';
 import Second from './components/Second';
 import Touchable from './components/Touchable';
-import Swipeable from './components/Swipeable';
+import Swipe from './components/Swipeable';
 
 const Stack = createStackNavigator();
 
@@ -78,7 +78,7 @@ export default function App(){
           }
         }} 
           name='Swipeable' 
-          component={Swipeable} />
+          component={Swipe} />
       </Stack.Navigator>
     </NavigationContainer>
   );
