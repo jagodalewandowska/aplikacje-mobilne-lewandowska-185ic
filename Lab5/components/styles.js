@@ -94,7 +94,7 @@ styles.body = StyleSheet.create({
         width: '49%'       
     },
     input2: {
-        margin: 5,
+        marginTop: '2%',
         borderColor: '#006164',
         borderWidth: 1,
         padding: '3%',
@@ -198,6 +198,15 @@ styles.second = StyleSheet.create({
         marginTop: 20,
         height: 100,
         width: 100
+    }
+});
+
+styles.touch = StyleSheet.create({
+    button: {
+        marginTop: 10,
+        elevation: 6,
+        backgroundColor: "#006164",
+        paddingVertical: 10
     }
 });
 
