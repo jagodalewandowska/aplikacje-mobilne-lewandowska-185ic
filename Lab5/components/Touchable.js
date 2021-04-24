@@ -64,10 +64,10 @@ export class Touchable extends Component {
               <Text style={styles.con.text}>Home</Text>
           </TouchableOpacity>    
           <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('First')}>
-              <Text style={styles.con.text}>First</Text>              
+              <Text style={styles.con.text}>ScrollView #1</Text>              
           </TouchableOpacity>  
           <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('Second')}>
-              <Text style={styles.con.text}>Second</Text>
+              <Text style={styles.con.text}>ScrollView #2</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('Swipeable')}>
               <Text style={styles.con.text}>Swipeable</Text>

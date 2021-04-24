@@ -20,7 +20,7 @@ export class First extends Component {
               <Text style={styles.con.text}>Home</Text>
           </TouchableOpacity>    
           <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('Second')}>
-              <Text style={styles.con.text}>Second</Text>
+              <Text style={styles.con.text}>ScrollView #2</Text>
           </TouchableOpacity>          
           <TouchableOpacity style={styles.con.button} onPress={() => navigation.push('Touchable')}>
               <Text style={styles.con.text}>TouchableOpacity</Text>
