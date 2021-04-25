@@ -47,8 +47,7 @@ export class Touchable extends Component {
           }}
           startInLoadingState
           scalesPageToFit
-          javaScriptEnabled
-          onNavigationStateChange={this.onNavigationStateChange}          
+          javaScriptEnabled       
         />
       </Modal>
     );
