@@ -98,27 +98,45 @@ Wygląd i działanie ekranu:
 
 ![image-20210425151029124](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/touchable.gif)
 
+# Swipeable.js - wykorzystanie Swipeable
 
+Import za pomocą **import Swipeable from 'react-native-swipeable';**. Do przykładu pierwszego wykorzystuję stany swiped oraz toggle, które na początku ustawione są na false. Pierwszy przycisk do przesuwania ma zawartość po prawej stronie *rightContent*:
 
+![image-20210425160542980](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/12.png)
 
+Przy przeciągnięciu do pewnego momentu będzie zmieniał kolor.
 
+![image-20210425160627179](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/13.png)
 
+Po przeciągnięciu zmieniony zostanie napis na przycisku z *Przesuń w lewo* na *Przycisk został przesunięty* . Wykorzystane zostały parametry rightActionActivationDistance, onRightActionActivate, Deactivate oraz Complete, z czego każda z nich zmienia odpowiedni stan. 
 
+![image-20210425151029124](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/swipe1.gif)
 
+Drugi przycisk został utworzony jako funkcja SwipeEx, która zostaje umieszczony pod pierwszym:
 
+```javascript
+    {/* Przykład 2 */}
+    <ScrollView style={styles.home.button}>
+        <SwipeEx {...itemProps}/>
+    </ScrollView>
+```
 
+Sama funkcja SwipeEx dla onOpen oraz onClose. Wybierana jest szerokość przycisków, wykorzystane są zdeklarowane TouchableOpacityjako leftButtons, a także napis po prawej stronie od przesunięcia. 
 
+![image-20210425161426455](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/15.png)
 
+Utworzone zostały dwie zmienne, currentlyOpenSwipeable oraz itemProps. Przy puszczeniu (release) wywoływane są odpowiednie funkcje onOpen oraz onClose wywoływane w funkcji SwipeEx.
 
+![image-20210425161336713](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/14.png)
 
+Przyciski po lewej stronie, z własnym kolorem. Podczas wciśnięcia przycisku po prawej wyskakuje komunikat.
 
+![image-20210425161640143](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/16.png)
 
+Komunikat po wciśnięciu przycisku ukrytego po lewej stronie:
 
+![image-20210425161843409](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/17.png)
 
+Animacja:
 
-
-
-
-
-
-
+![image-20210425151029124](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/swipe2.gif)
