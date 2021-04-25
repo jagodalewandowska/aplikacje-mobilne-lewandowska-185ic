@@ -27,7 +27,7 @@ Pierwszy ScrollView jest to prosty scroll, który występuje na całości aplika
 </ScrollView>
 ```
 
-Następnie sama aplikacja za pomocą flex oraz szerokości danych elementów dzieli się na pewnego typu siatkę, gdzie wykorzystuję również <Image .../>. Formatowanie tekstu, zmiana marginesów, padding - wszystko zawarte jest w **styles.js**:
+Następnie sama aplikacja za pomocą flex oraz szerokości danych elementów dzieli się na pewnego typu siatkę, gdzie wykorzystuję również Image. Formatowanie tekstu, zmiana marginesów, padding - wszystko zawarte jest w **styles.js**:
 
 ![image-20210425150921359](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/3.png)
 
@@ -64,7 +64,7 @@ Wygląd i działanie ekranu:
 
 ## Touchable.js - TouchableOpacity oraz TouchableHighlight
 
-Wszystkie przyciski do nawigacji w aplikacji wykorzystują TouchableOpacity. TouchableHighlight zostało wykorzystane do zliczania ile razy został wciśnięty , a także do wyświetlania komunikatu przy jego kliknięciu. Na zrzutach ekranu jest to stan pierwotny, następnie po wciśnięciu 3 razy, a na ostatnim wciśnięcie drugiego przycisku Alert. 
+Wszystkie przyciski do nawigacji w aplikacji wykorzystują TouchableOpacity. TouchableHighlight zostało wykorzystane do zliczania ile razy został wciśnięty, a także do wyświetlania komunikatu przy jego kliknięciu. Na zrzutach ekranu jest to stan pierwotny, następnie po wciśnięciu 3 razy, a na ostatnim wciśnięcie drugiego przycisku Alert. 
 
 ![image-20210425154155892](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/7.png)
 
@@ -82,7 +82,7 @@ onPressTH = () => {
 };
 ```
 
-Następnie wykorzystuję **import { WebView } from 'react-native-webview';** dzięki którego importowi możliwe będzie wyszukiwanie danej frazy w Google. Operowanie na stanach show, search. Utworzony zostaje modal, który jest widoczny tylko po wciśnięciu **TouchableOpacity**. Deklarowany zostaje przycisk powrotu do ekranu aplikacji. w **<WebView>** ustawiany zostaje source na link do wyszukiwania google, gdzie na koniec dopisywane jest słowo wprowadzone w TextInput. 
+Następnie wykorzystuję **import { WebView } from 'react-native-webview';** dzięki którego importowi możliwe będzie wyszukiwanie danej frazy w Google. Operowanie na stanach show, search. Utworzony zostaje modal, który jest widoczny tylko po wciśnięciu **TouchableOpacity**. Deklarowany zostaje przycisk powrotu do ekranu aplikacji. w **WebView** ustawiany zostaje source na link do wyszukiwania google, gdzie na koniec dopisywane jest słowo wprowadzone w TextInput. 
 
 ![image-20210425155048001](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/9.png)
 
@@ -116,7 +116,7 @@ Przy przeciągnięciu do pewnego momentu będzie zmieniał kolor.
 
 ![image-20210425160627179](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/13.png)
 
-Po przeciągnięciu zmieniony zostanie napis na przycisku z *Przesuń w lewo* na *Przycisk został przesunięty* . Wykorzystane zostały parametry rightActionActivationDistance, onRightActionActivate, Deactivate oraz Complete, z czego każda z nich zmienia odpowiedni stan. 
+Po przeciągnięciu zmieniony zostanie napis na przycisku z *Przesuń w lewo* na *Przycisk został przesunięty.* Wykorzystane zostały parametry rightActionActivationDistance, onRightActionActivate, Deactivate oraz Complete, z czego każda z nich zmienia odpowiedni stan. 
 
 ![image-20210425151029124](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/swipe1.gif)
 
@@ -129,7 +129,7 @@ Drugi przycisk został utworzony jako funkcja SwipeEx, która zostaje umieszczon
     </ScrollView>
 ```
 
-Sama funkcja SwipeEx dla onOpen oraz onClose. Wybierana jest szerokość przycisków, wykorzystane są zdeklarowane TouchableOpacityjako leftButtons, a także napis po prawej stronie od przesunięcia. 
+Sama funkcja SwipeEx dla onOpen oraz onClose. Wybierana jest szerokość przycisków, wykorzystane są zdeklarowane TouchableOpacity jako leftButtons, a także napis po prawej stronie od przesunięcia. 
 
 ![image-20210425161426455](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/15.png)
 
@@ -137,7 +137,7 @@ Utworzone zostały dwie zmienne, currentlyOpenSwipeable oraz itemProps. Przy pus
 
 ![image-20210425161336713](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/14.png)
 
-Przyciski po lewej stronie, z własnym kolorem. Podczas wciśnięcia przycisku po prawej wyskakuje komunikat.
+Przyciski po lewej stronie, z własnym kolorem. Podczas wciśnięcia prawego przycisku wyskakuje komunikat.
 
 ![image-20210425161640143](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/16.png)
 
