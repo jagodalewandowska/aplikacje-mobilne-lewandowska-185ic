@@ -210,5 +210,33 @@ styles.touch = StyleSheet.create({
     }
 });
 
+styles.swipe = StyleSheet.create({
+    listItem: {
+        height: 90,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    right: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        marginRight: 20
+    },
+    left: {
+        flex: 1,
+        justifyContent: 'flex-end',
+        marginLeft: 30
+    },
+    text:{
+        paddingTop:20,
+        fontSize:30,
+        textAlign:'center'
+    },
+    button: {
+        marginTop: 10,
+        elevation: 6,
+        backgroundColor: "#006164"
+    }
+});
 
 export default styles;
