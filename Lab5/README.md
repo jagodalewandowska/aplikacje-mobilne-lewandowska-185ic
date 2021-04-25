@@ -54,7 +54,49 @@ Wygląd i działanie ekranu:
 
 ![image-20210425151029124](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/scrollview2.gif)
 
+## Touchable.js - TouchableOpacity oraz TouchableHighlight
 
+Wszystkie przyciski do nawigacji w aplikacji wykorzystują TouchableOpacity. TouchableHighlight zostało wykorzystane do zliczania ile razy został wciśnięty , a także do wyświetlania komunikatu przy jego kliknięciu. Na zrzutach ekranu jest to stan pierwotny, następnie po wciśnięciu 3 razy, a na ostatnim wciśnięcie drugiego przycisku Alert. 
+
+![image-20210425154155892](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/7.png)
+
+Pierwszy TouchableHighlight przyjmuje parametry dla *underlayColor*, *style* oraz *onPress*. 
+
+![image-20210425154441334](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/8.png)
+
+Wywoływana zostaje funkcja onPressTH, która zmienia state countrTH na o 1 większy.
+
+```javascript
+onPressTH = () => {
+    this.setState({
+        countTH: this.state.countTH + 1
+    });
+};
+```
+
+Następnie wykorzystuję **import { WebView } from 'react-native-webview';** dzięki którego importowi możliwe będzie wyszukiwanie danej frazy w Google. Operowanie na stanach show, search. Utworzony zostaje modal, który jest widoczny tylko po wciśnięciu **TouchableOpacity**. Deklarowany zostaje przycisk powrotu do ekranu aplikacji. w **<WebView>** ustawiany zostaje source na link do wyszukiwania google, gdzie na koniec dopisywane jest słowo wprowadzone w TextInput. 
+
+![image-20210425155048001](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/9.png)
+
+Sam TextInput wykorzystuje funkcję strzałkową handleName, dzięki któremu przekazywany jest tekst do wyszukiwania.
+
+```javascript
+  handleName = (text) => {
+    this.setState({ search: text })
+  }
+```
+
+Pod nagłówkiem znajduje się miejsce w którym pojawi się modal po wciśnięciu przycisku.
+
+![image-20210425155314487](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/10.png)
+
+Po wciśnięciu TouchableOpacity stan show zmienia się na true, a modal się pojawia.
+
+![image-20210425155622639](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/11.png)
+
+Wygląd i działanie ekranu:
+
+![image-20210425151029124](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/touchable.gif)
 
 
 
