@@ -2,6 +2,14 @@
 
 ![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/1.png)
 
+## Spis treści:
+
+1. [Wykonanie zadania](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab5#wykonanie-zadania-wraz-ze-zrzutami-ekranu)
+2. [Pierwszy przykład ScrollView](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab5#firstjs-----czyli-pierwsze-wykorzystanie-scrollview)
+3. [Drugi przykład ScrollView](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab5#secondjs---drugie-wykorzystanie-scrollview)
+4. [TouchableOpacity oraz TouchableHighlight](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab5#touchablejs---touchableopacity-oraz-touchablehighlight)
+5. [Wykorzystanie Swipeable](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab5#swipeablejs---wykorzystanie-swipeable)
+
 ## Wykonanie zadania wraz ze zrzutami ekranu
 
 Wykorzystuję nawigację do przechodzenia do ekranów z głównego ekranu Menu oraz tworzę przyciski by można było również pomiędzy nimi. Sama aplikacja posiada cztery ekrany zgodnie z założeniami laboratorium.
