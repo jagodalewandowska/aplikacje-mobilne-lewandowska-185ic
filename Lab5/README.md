@@ -27,11 +27,32 @@ Sam kod do wyświetlania całej sekcji <ScrollView>:
 
 ![image-20210425151029124](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/4.png)
 
-Wygląd i działanie okna:
+Wygląd i działanie ekranu:
 
 ![image-20210425151029124](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/scrollview1.gif)
 
+## Second.js - drugie wykorzystanie ScrollView
 
+W górnej części znajduje się poziomy ScrollView, który został utworzony dzięki parametrowi, który został umieszony pomiędzy View, który w stylach wykorzystuje *flexDirection: row*, dzięki czemu wszystkie zdjęcia umieszczone są obok siebie. Styl dla obrazów nadaje im kształt kwadratu.
+
+```javascript
+<ScrollView horizontal={true}>
+    <Image source={{ uri: '...'}} style={styles.second.img2}/>
+        ...
+</ScrollView>
+```
+
+Następnie pod nim znajduje się podzielony ekran 40% do 60%, w którym element po prawej stronie to również ScrollView pionowy.
+
+![image-20210425153432894](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/5.png)
+
+W nim znajdują się zmapowane zespoły zdeklarowane wcześniej:
+
+![image-20210425153507106](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/6.png)
+
+Wygląd i działanie ekranu:
+
+![image-20210425151029124](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab5/screenshots/scrollview2.gif)
 
 
 
