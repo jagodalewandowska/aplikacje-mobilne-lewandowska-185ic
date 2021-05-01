@@ -18,3 +18,6 @@
 
 ---
 ### Lab 5 - [Obsługa gestów użytkownika](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab5)  
+
+---
+### Lab 6 - [Obsługa gestów użytkownika](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6) 
