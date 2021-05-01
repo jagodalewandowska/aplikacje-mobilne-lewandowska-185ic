@@ -158,6 +158,17 @@ styles.first = StyleSheet.create({
         borderColor: '#003768',
         borderWidth: 2,
         margin: '2%'
+    },
+    image: {
+        flex: 1,
+        height: 400,
+        width: '100%'
+    },
+    icons: {
+        flexDirection: 'row',
+        margin: '2%',
+        flexWrap: 'wrap',
+        justifyContent: 'space-around'
     }
 });
 
