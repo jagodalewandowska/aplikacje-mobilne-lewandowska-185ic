@@ -86,7 +86,7 @@ styles.body = StyleSheet.create({
     },
     input: {
         margin: 5,
-        height: 35,
+        height: 37,
         borderColor: '#006164',
         borderWidth: 1,
         padding: '3%',
@@ -175,99 +175,6 @@ styles.first = StyleSheet.create({
         margin: '2%',
         borderBottomColor: 'black',
         borderBottomWidth: 1,
-    }
-});
-
-styles.second = StyleSheet.create({
-    item: {
-        elevation: 6,
-        backgroundColor: "#006164",
-        paddingVertical: 15,
-        width: '100%',
-        color: 'white',
-        fontWeight: 'bold',
-        marginBottom: '2%'
-    },
-    nav: {
-        flex: 1,
-        marginRight: '2%'
-    },
-    ctr: {
-        flex: 1,
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        alignItems: 'flex-start',
-        marginTop: 20,
-        margin: '2%'
-    },
-    btn: {
-        width: '40%',
-    },
-    about: {
-        width: '60%'
-    },
-    txt: {
-        margin: 10,
-        marginTop: 0,
-        fontWeight: 'bold',
-        fontSize: 12,
-        textAlign: 'justify'
-    },
-    img: {
-        height: 120,
-        marginBottom: '6%',
-        margin: '3%'
-    },
-    txt2: {
-        margin: '2%',
-        fontWeight: 'bold',
-        fontSize: 12,
-        textAlign: 'justify',
-        backgroundColor: '#B5DFDF',
-        padding: '5%'
-    },
-    img2: {
-        marginTop: 20,
-        height: 100,
-        width: 100
-    }
-});
-
-styles.touch = StyleSheet.create({
-    button: {
-        marginTop: 10,
-        elevation: 6,
-        backgroundColor: "#006164",
-        paddingVertical: 10
-    }
-});
-
-styles.swipe = StyleSheet.create({
-    listItem: {
-        height: 90,
-        alignItems: 'center',
-        justifyContent: 'center'
-    },
-    right: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'flex-start',
-        marginRight: 20
-    },
-    left: {
-        flex: 1,
-        justifyContent: 'flex-end',
-        marginLeft: 30
-    },
-    text:{
-        paddingTop:20,
-        fontSize:30,
-        textAlign:'center'
-    },
-    button: {
-        marginTop: 10,
-        elevation: 6,
-        backgroundColor: "#006164"
     }
 });
 
