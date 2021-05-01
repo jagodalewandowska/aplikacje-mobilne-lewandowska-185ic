@@ -140,9 +140,17 @@ styles.first = StyleSheet.create({
     },
     mid: {
         backgroundColor: '#B5DFDF',
-        padding: '10%',
+        padding: '4%',
         textAlign: 'justify',
         marginBottom: '3%'
+    },
+    img: {
+        width: '100%',
+        height: 200,
+        aspectRatio: 1.9,
+        borderColor: '#003768',
+        borderWidth: 2,
+        margin: '2%'
     }
 });
 
