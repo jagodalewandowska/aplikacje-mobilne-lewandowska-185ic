@@ -1,6 +1,10 @@
 import React, { useState, useEffect, Component }  from 'react';
-import { TouchableOpacity, View, Text, ScrollView, Image } from 'react-native';
+import { TouchableOpacity, View, Text, ScrollView, Image, Button} from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { MaterialIcons, Entypo } from '@expo/vector-icons'; 
+import Slider from '@react-native-community/slider';
+import NetInfo from "@react-native-community/netinfo";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import styles from './styles';
 
 export default function(props) {
@@ -8,9 +12,50 @@ export default function(props) {
   return <SyncData {...props} navigation = {navigation} />;
 }
 
-export class SyncData extends Component {  
+export class SyncData extends Component {
+  state = {
+    offlineValue: '',
+    onlineValue: ''
+  }
+
+  componentDidMount() {    
+    setInterval(() => {
+      this.fetchState();
+      if(this.state.isConnected) {
+      this.setState({ onlineValue: this.state.offlineValue})
+      } else {
+        // nie aktualizacje
+      }
+    }, 3000);
+  }
+
+  fetchState = async () => {
+      const state = await NetInfo.fetch();
+      var tempState = JSON.stringify(state)
+      this.setState(JSON.parse(tempState))
+  };
+
+  checkValue = async(value) => {
+    var key = "offlineValue"
+    try {
+      await AsyncStorage.setItem(key, value.toString());
+        } catch (e) {
+            alert('Niepowodzenie')
+        }
+    try {
+        const val = await AsyncStorage.getItem(key);
+        if (val != null) {
+            this.setState({offlineValue: val})
+        } else {
+            this.setState({offlineValue:'Brak'})
+        }
+    } catch (e) {
+        this.setState({offlineValue: e})
+    }
+  }
+
   render(){
-    const { navigation } = this.props;   
+    const { navigation } = this.props;
     return (
       <View style={styles.con.container}> 
         {/* Nawigacja */}
@@ -35,7 +80,26 @@ export class SyncData extends Component {
           </TouchableOpacity>
         </View>   
         <View style={styles.body.container}>
- 
+          <View style={{marginTop: '15%', alignItems: 'center'}}>
+            <Text style={styles.first.txt}> Stan połączenia </Text>
+              {this.state.isConnected 
+              ? <MaterialIcons name="check" size={18} color="green" /> 
+              : <Entypo name="cross" size={18} color="red"/>}
+          </View>
+          <Slider
+            style={{width: '100%', height: 50}}                
+            thumbTintColor='#006164'
+            minimumTrackTintColor="#006164"
+            maximumTrackTintColor='gray'
+            minimumValue={1}
+            maximumValue={100}
+            step={1}
+            onValueChange={this.checkValue}
+          />
+          <View style={{marginTop: '5%'}}>
+            <Text style={styles.first.mid}> Wartość suwaka: <Text style={styles.first.txt}> {this.state.offlineValue} </Text></Text>
+            <Text style={styles.first.mid}> Wartość zapisana przy połączeniu z Internetem: <Text style={styles.first.txt}> {this.state.onlineValue} </Text></Text>
+          </View>  
         </View>   
       </View>   
     );

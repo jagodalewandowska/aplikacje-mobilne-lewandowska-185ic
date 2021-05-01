@@ -147,7 +147,7 @@ styles.first = StyleSheet.create({
     img: {
         width: '100%',
         height: 200,
-        aspectRatio: 1.9,
+        aspectRatio: 1.7,
         borderColor: '#003768',
         borderWidth: 2,
         margin: '2%'
