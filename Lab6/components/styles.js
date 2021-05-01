@@ -151,6 +151,13 @@ styles.first = StyleSheet.create({
         borderColor: '#003768',
         borderWidth: 2,
         margin: '2%'
+    },
+    img2: {
+        width: '100%',
+        height: 250,
+        borderColor: '#003768',
+        borderWidth: 2,
+        margin: '2%'
     }
 });
 
