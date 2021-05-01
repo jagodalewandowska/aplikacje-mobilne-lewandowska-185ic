@@ -169,6 +169,12 @@ styles.first = StyleSheet.create({
         margin: '2%',
         flexWrap: 'wrap',
         justifyContent: 'space-around'
+    },
+    txt2: {
+        padding: '3%',
+        margin: '2%',
+        borderBottomColor: 'black',
+        borderBottomWidth: 1,
     }
 });
 
