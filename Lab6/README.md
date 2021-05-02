@@ -6,9 +6,9 @@
 
 1. [Wykonanie zadania](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#wykonanie-zadania-wraz-ze-zrzutami-ekranu)
 2. [Image uri oraz require()](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#imagerequirejs---%C5%82adowanie-obraz%C3%B3w)
-3. [Slider](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#changesliderjs---zmiana-rozmiaru-obraz%C3%B3w-przy-u%C5%BCyciu-slider)
+3. [Slider z wykorzystaniem Image uri i require()](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#changesliderjs---zmiana-rozmiaru-obraz%C3%B3w-przy-u%C5%BCyciu-slider)
 4. [Leniwe ładowanie obrazu i ikon](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#lazyimagejs---%C5%82adowanie-obrazka-oraz-ikon)
-5. [Test połączenia](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#connectiontestjs---sprawdzanie-po%C5%82%C4%85czenia-internetowego)
+5. [Test połączenia - NetInfo](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#connectiontestjs---sprawdzanie-po%C5%82%C4%85czenia-internetowego)
 6. [AsyncStorage](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#asyncstorejs---wykorzystanie-modu%C5%82u-asyncstorage)
     - [setItem](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#setitem)
     - [getItem](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#getitem)
