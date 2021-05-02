@@ -36,16 +36,11 @@ export class SyncData extends Component {
   };
 
   checkValue = async(value) => {
-    var key = "offlineValue"
+    var key = "offlineValue"    
     try {
-      await AsyncStorage.setItem(key, value.toString());
-        } catch (e) {
-            alert('Niepowodzenie')
-        }
-    try {
-        const val = await AsyncStorage.getItem(key);
-        if (val != null) {
-            this.setState({offlineValue: val})
+        const value = await AsyncStorage.getItem(key);
+        if (value != null) {
+            this.setState({offlineValue: value})
         } else {
             this.setState({offlineValue:'Brak'})
         }
