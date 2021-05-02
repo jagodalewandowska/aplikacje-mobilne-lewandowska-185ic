@@ -4,6 +4,17 @@
 
 ## Spis treści:
 
+1. [Wykonanie zadania](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#wykonanie-zadania-wraz-ze-zrzutami-ekranu)
+2. [Image uri oraz require()](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#imagerequirejs---%C5%82adowanie-obraz%C3%B3w)
+3. [Slider](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#changesliderjs---zmiana-rozmiaru-obraz%C3%B3w-przy-u%C5%BCyciu-slider)
+4. [Leniwe ładowanie obrazu i ikon](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#lazyimagejs---%C5%82adowanie-obrazka-oraz-ikon)
+5. [Test połączenia](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#connectiontestjs---sprawdzanie-po%C5%82%C4%85czenia-internetowego)
+6. [AsyncStorage](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#asyncstorejs---wykorzystanie-modu%C5%82u-asyncstorage)
+    - [setItem](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#setitem)
+    - [getItem](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#getitem)
+    - [clear](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#clear)
+7. [Synchronizacja danych](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6#syncdatajs---synchronizowanie-danych-przy-po%C5%82%C4%85czeniu-z-internetem)
+
 ## Wykonanie zadania wraz ze zrzutami ekranu
 
 Do zadania wykorzystałam nawigację z głównego menu oraz pomiędzy ekranami. 
@@ -50,6 +61,10 @@ Drugi obrazek ładowany jest za pomocą **require**, zmieniłam wartości począ
 
 ![image-20210501200728975](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/7.png)
 
+Animacja:
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/slider.gif)
+
 ## LazyImage.js - ładowanie obrazka oraz ikon
 
 Przy ładowaniu wykorzystałam **ActivityIndicator** z odpowiednimi parametrami do ustalenia wielkości i koloru, poza tym sam obraz Image ładuję przy użyciu **react-native-elements**, który pozwala mi na umieszczenie **placeholderContent** - a w nim animacji ładowania. 
@@ -78,7 +93,7 @@ Na zrzucie ekranu widać ładowanie po czasie zarówno ikon jak i obrazu.
 
 ![image-20210501201438639](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/9.png)
 
-### ConnectionTest.js - Sprawdzanie połączenia internetowego
+## ConnectionTest.js - Sprawdzanie połączenia internetowego
 
 Po zaimportowaniu zainstalowanego Netinfo:
 
