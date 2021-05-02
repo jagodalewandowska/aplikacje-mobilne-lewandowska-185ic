@@ -79,3 +79,129 @@ Na zrzucie ekranu widać ładowanie po czasie zarówno ikon jak i obrazu.
 ![image-20210501201438639](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/9.png)
 
 ### ConnectionTest.js - Sprawdzanie połączenia internetowego
+
+Po zaimportowaniu zainstalowanego Netinfo:
+
+```javascript
+import NetInfo from "@react-native-community/netinfo";
+```
+
+Wykorzystywana jest funkcja fetchState, która zwraca poszczególne informacje dotyczące połączenia np. typ połączenia, częstotliwość. 
+
+![image-20210502130050397](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/13.png)
+
+Możliwe jest sprawdzenie, czy jest połączenie z Internetem. W przypadku kiedy jest dostępne połączenie, wyświetlana jest zielona ikona wykorzystywana w poprzednim ekranie, lub czerwona przy braku połączenia.
+
+![image-20210502130004368](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/10.png)
+
+Tworzona jest również zmienna details, dzięki której wyświetlane jest (jeśli możliwe do określenia) ssid, siła sygnału, adres IP.
+
+![image-20210502130102906](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/12.png)
+
+Następnie wyświetlane są otrzymane szczegóły i informacje. W przypadku SSID jeśli nie zostanie ono rozpoznanie, wyświetlana jest jego nazwa, w przeciwnym przypadku wyświetlany jest brak informacji - tak samo w przypadku częstotliwości; jeśli wykryte zostanie połączenie wyświetlana jest wartość.
+
+![image-20210502130317477](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/14.png)
+
+Wygląd aplikacji:
+
+![image-20210502130643052](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/15.png)
+
+## AsyncStore.js - wykorzystanie modułu AsyncStorage
+
+Wygląd aplikacji:
+
+![image-20210502144339237](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/25.png)
+
+Po instalacji import:
+
+```javascript
+import AsyncStorage from '@react-native-async-storage/async-storage';
+```
+
+- #### **setItem**
+
+W pierwszej części aplikacji możliwe jest zapisywanie klucza oraz wartości dla niego, możliwe jest to dzięki zdefiniowaniu dwóch stanów **storedKey** oraz **storedValue**, następnie utworzona jest funkcja **storeData**:
+
+![image-20210502135313117](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/16.png)
+
+W głównej części utworzyłam dwa **TextInput**, które odpowiednio zmieniają stan na wprowadzoną wartość. 
+
+![image-20210502135714092](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/19.png)
+
+Po wciśnięciu "Zapisz" wywołanie funkcji **storeData**:
+
+![image-20210502135752425](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/20.png)
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/setitem.gif)
+
+W przypadku pozostawienia pól pustych wyskakuje komunikat o nich, a wartości nie są zapisywane.
+
+![image-20210502143429673](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/22.png)
+
+- #### getItem
+
+W drugiej części można wyszukiwać dane za pomocą **getItem**. Utworzona zostaje funkcja **retrieveData**:
+
+![image-20210502135453261](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/17.png)
+
+**TextInput** wraz z przyciskiem szukaj:
+
+![image-20210502143305059](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/21.png)
+
+Odnalezienie poprzednio dodanej wartości poprzez klucz.
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/getItem.gif)
+
+W przypadku jeśli klucz nie istnieje:
+
+![image-20210502143834646](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/23.png)
+
+- #### **clear**
+
+Ostatnią funkcją jest funkcja "czyszcząca" wszystkie zapisane rekordy - **clearStorage**. 
+
+![image-20210502135553746](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/18.png)
+
+Przycisk wyczyść:
+
+![image-20210502144056483](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/24.png)
+
+Klucz **123** nie zostaje odnaleziony po wymazaniu:
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/clear.gif)
+
+## SyncData.js - synchronizowanie danych przy połączeniu z Internetem
+
+Utworzyłam dwa stany **offlineValue** oraz **onlineValue**, z czego ta druga jest aktualizowana tylko w przypadku połączenia z Internetem. 
+
+```javascript
+state = {
+    offlineValue: '',
+    onlineValue: ''
+  }
+```
+
+W przypadku załadowaniu co 3 sekundy aktualizowane jest sprawdzanie, czy występuje połączenie z siecią. Jeśli tak, aktualizowany jest stan onlineValue przypisując wartość z offlineValue - który wskazuje wartość na Sliderze. Stan połączenia wykorzystuję za pomocą NetInfo oraz fetchState z jednego z poprzednich ekranów:
+
+![image-20210502144736949](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/26.png)
+
+Jeśli połączenie jest dostępne ikona zmienia się na zieloną, a wartość aktualizuje po danym interwale. 
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/stan.gif)
+
+Utworzony panel z połączeniem wraz ze Sliderem - ustawienie kolorów, wartości kroków, wartości min i max, **onValueChange** wywołuje funkcję **checkValue**:
+
+![image-20210502145106507](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/27.png)
+
+Funkcja asynchroniczna **checkValue** przypisująca wartość z suwaka do **offlineValue**.
+
+![image-20210502145518749](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/29.png)
+
+Wyświetlanie wartości:
+
+![image-20210502145134804](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/28.png)
+
+Przy braku połączenia liczba się nie aktualizuje, dopiero przy wykryciu i upływanie interwału który wykryje połączenie:
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab6/screenshots/bezpolaczenia.gif)
+
