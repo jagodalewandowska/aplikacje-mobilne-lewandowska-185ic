@@ -26,11 +26,15 @@ W zadaniu utworzyłam lokalną bazę danych, która obsługuje zapytania takie j
 
 ![image-20210510133219254](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510133119310.png)
 
-Na samym początku w kodzie funkcję **openDatabase**, która otwiera nową bazę danych jako zmienną db. Otwiera ona nową bazę danych, jeśli nie istnieje, zwraca odpowiedni obiekt. SQLite.openDataBase może przyjmować nazwę, wersję opis a także wielkość - SQLite.openDatabase(name, version, description, size).
+Na samym początku w kodzie funkcję **openDatabase**, która otwiera nową bazę danych - jeśli nie istnieje, zwraca odpowiedni obiekt. Składnia: SQLite.openDatabase(name, version, description, size).
 
 ![image-20210510133319198](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510133319198.png)
 
-Tworzę również funkcję **userForceUpdate**, która ustawia wartości **value** przy aktualizowaniu bazy. Następną funkcją jest funkcja **Products,** któar odpowiada za wyświetlanie produktów na liście zakupów za pomocą **select * from**. W przypadku, kiedy lista produktów jest pusta nie wyświetla żadnych elementów. Funkcja ta zwraca produkty za pomocą funkcji **map() **dla id, done oraz value. 
+Tworzę również funkcję **userForceUpdate**, która ustawia wartości **value** przy aktualizowaniu bazy. Następną funkcją jest funkcja **Products,** która odpowiada za wyświetlanie produktów na liście zakupów za pomocą **select * from**. 
+
+![image-20210510133319133](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510133319133.png)
+
+W przypadku, kiedy lista produktów jest pusta nie wyświetla żadnych elementów. Funkcja ta zwraca produkty za pomocą funkcji **map() **dla id, done oraz value. 
 
 ![image-20210510133744448](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510133744448.png)
 
