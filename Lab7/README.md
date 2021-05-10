@@ -39,7 +39,7 @@ W przypadku, kiedy lista produktów jest pusta nie wyświetla żadnych elementó
 
 ![image-20210510133744448](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510133744448.png)
 
-Można zauważyć, że tworzone są przyciski z nazwami odpowiednich produktów na liście. Sprawdzanie jest, czy produkt znajduje się już w koszyku czy nie - jeśli tak, zmieniany jest kolor tła na odpowiedni, a także zostaje użyty **textDecorationLine** na *line-through* który przekreśla daną wartość na liście.
+Można zauważyć, że tworzone są przyciski z nazwami odpowiednich produktów na liście. Sprawdzanie jest, czy produkt znajduje się już w koszyku czy nie - zmieniany jest kolor tła na odpowiedni, a także zostaje użyty **textDecorationLine** na *line-through* który przekreśla daną wartość na liście.
 
 ![image-20210510133943128](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510133943128.png)
 
@@ -76,7 +76,7 @@ Animacja:
 
 ![](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/blob/master/Lab7/screenshot/deleteall.gif?raw=true)
 
-Następnie tworzony jest **ScrollView**, który wyświetla zarówno 'listę zakupów' jak i elementy już z niego usunięte '*W koszyku'. Wykorzystuję utworzony prędzej Products, wyświetlający elementy 'done', czyli lista zakupów. **OnPressItem** wykorzystuje **update**, który zmienia wartość i dodaje element do koszyka, czyli kiedy done = true.
+Następnie tworzony jest **ScrollView**, który wyświetla zarówno 'listę zakupów' jak i elementy już z niego usunięte '*W koszyku'. Wykorzystuję utworzony prędzej Products, wyświetlający elementy 'done', czyli lista zakupów. **OnPressItem** wykorzystuje **update**, który zmienia wartość i dodaje element do koszyka, czyli kiedy done = 1.
 
 ![image-20210510135138176](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510135138176.png)
 
