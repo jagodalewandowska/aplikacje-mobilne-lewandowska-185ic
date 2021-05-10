@@ -68,8 +68,7 @@ export default function FirstDB({navigation}) {
     });
   }, []);
 
-  const add = (text) => {
-    
+  const add = (text) => {    
     if (text === null || text === "") {
       return alert('Wprowadź tekst!');
     }
@@ -115,7 +114,7 @@ export default function FirstDB({navigation}) {
               }
               style={styles.home.button}
             >
-            <Text style={styles.home.text}>Usuń wszystko z listy zakupów</Text>
+            <Text style={styles.home.text}>❌ Usuń wszystko z listy zakupów</Text>
           </TouchableOpacity>
           <ScrollView style={styles.db.shoppingList}>
             <View style={styles.db.col}>
