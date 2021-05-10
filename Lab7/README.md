@@ -16,7 +16,7 @@ W samym kodzie, aby móc z niej korzystać należy zaimportować ją poleceniem:
 import * as SQLite from 'expo-sqlite';
 ```
 
-W zadaniu utworzyłam lokalną bazę danych, która obsługuje zapytania takie jak:
+W zadaniu utworzyłam lokalną bazę danych, która obsługuje polecenia takie jak:
 
 - **select** - określanie kształtu wyniku, wybieranie wartości do wyświetlenia
 - **create table** - tworzenie nowej tabeli
