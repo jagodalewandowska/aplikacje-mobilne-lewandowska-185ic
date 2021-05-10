@@ -26,11 +26,12 @@ W zadaniu utworzyłam lokalną bazę danych, która obsługuje zapytania takie j
 
 ![image-20210510133219254](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510133119310.png)
 
-Na samym początku w kodzie funkcję **openDatabase**, która otwiera nową bazę danych - jeśli nie istnieje, zwraca odpowiedni obiekt. Składnia: SQLite.openDatabase(name, version, description, size).
+Na samym początku w kodzie funkcję **openDatabase**, która otwiera nową bazę danych - jeśli nie istnieje, zwraca odpowiedni obiekt. Składnia: 
+` SQLite.openDatabase(name, version, description, size). `
 
 ![image-20210510133319198](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510133319198.png)
 
-Tworzę również funkcję **userForceUpdate**, która ustawia wartości **value** przy aktualizowaniu bazy. Następną funkcją jest funkcja **Products,** która odpowiada za wyświetlanie produktów na liście zakupów za pomocą **select * from**. 
+Tworzę również funkcję **userForceUpdate**, która aktualizuje wartości **value**, wykorzystywana zostaje podczas aktualizacji zawartości tabeli w bazie danych. Następną funkcją jest funkcja **Products,** która odpowiada za wyświetlanie produktów na liście zakupów za pomocą **select * from**. Za jej pomocą wyświetlane zostają później poszczególe elementy, w zależności od tego jaką wartość *done* przyjmują.
 
 ![image-20210510133319133](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510133319133.png)
 
@@ -50,9 +51,7 @@ Utworzyłam funkcję FirstDB, która tworzy nową tablicę z id, done oraz value
 
 ![image-20210510134143117](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510134143117.png)
 
-Następnie **add** odpowiada za dodawanie nowych produktów do listy.  Wykorzystanie funkcji **transation, executeSql** - dla których kolejno to polecenie sql które zostanie wykorzystane, argumenty, a także funkcje: dla pomyślnej operacji i dla niepożądanej (błędu).
-
- a także poleceń *insert into* oraz select * from items.
+Następnie **add** odpowiada za dodawanie nowych produktów do listy.  Wykorzystanie funkcji **transation, executeSql** - dla których kolejno to polecenie sql które zostanie wykorzystane, argumenty, a także funkcje: dla pomyślnej operacji i dla niepożądanej (błędu), a także poleceń *insert into* oraz select * from items.
 
 ![image-20210510134324573](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510134324573.png)
 
