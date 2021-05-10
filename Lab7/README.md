@@ -47,19 +47,24 @@ W konsoli wyświetlają się dodane wartości kolejno:
 
 ![image-20210510134021899](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510134021899.png)
 
-Utworzyłam funkcję FirstDB, która tworzy nową tablicę z id, done oraz value ustawioną jako tekst.
+Utworzyłam funkcję FirstDB, która tworzy nową tabelę z id, done oraz value ustawioną jako tekst.
 
 ![image-20210510134143117](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510134143117.png)
 
-Następnie **add** odpowiada za dodawanie nowych produktów do listy.  Wykorzystanie funkcji **transation, executeSql** - dla których kolejno to polecenie sql które zostanie wykorzystane, argumenty, a także funkcje: dla pomyślnej operacji i dla niepożądanej (błędu), a także poleceń *insert into* oraz select * from items.
+Następnie **add** odpowiada za dodawanie nowych produktów do listy. Wykorzystanie funkcji **transation, executeSql** - dla których w nawiasie przyjmowane być mogą kolejno:
+- polecenie sql które zostanie wykorzystane, 
+- argumenty, 
+- a także funkcje: dla pomyślnej operacji i dla niepożądanej (błędu) 
+
+Wykorzystanie także poleceń *insert into* oraz select * from items.
 
 ![image-20210510134324573](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510134324573.png)
 
-W przypadku, kiedy nie zostanie wpisany tekst wyskakuje powiadomienie po wciśnięciu enter:
+W przypadku, kiedy nie zostanie wpisany tekst wyskakuje powiadomienie po wciśnięciu enter, ta wartość nie zostaje dodawana do bazy.
 
 ![image-20210510134235366](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510134235366.png)
 
-Sama funkcja **FirstDB** zwraca widok listy zakupów - czyli na samym początku jest to nagłówek wraz z polem do wpisywania tekstu. Przy wysyłaniu wywoływana zostaje add(text), czyli ten znajdujący się w polu a także usunięcie zawartości pola po dodaniu. Zastosowanie styli w styles.js.
+Sama funkcja **FirstDB** zwraca widok listy zakupów - czyli na samym początku jest to nagłówek wraz z polem do wpisywania tekstu. Przy wysyłaniu wywoływana zostaje add(text), czyli ten znajdujący się w TextInput, a także usunięcie zawartości tego pola po dodaniu za pomocą *setText(null)*. Ustawienie placeholder, style, a także wartości.
 
 ![image-20210510134535709](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510134535709.png)
 
@@ -71,7 +76,7 @@ Animacja:
 
 ![](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/blob/master/Lab7/screenshot/deleteall.gif?raw=true)
 
-Następnie tworzony jest **ScrollView**, który wyświetla zarówno listę zakupów jak i elementy już z niego usunięte '**W koszyku**'. Wykorzystuję utworzony prędzej Products, wyświetlający elementy 'done', czyli lista zakupów. **OnPressItem** wykorzystuje **update**, który zmienia wartość i dodaje element do koszyka, czyli kiedy done = true.
+Następnie tworzony jest **ScrollView**, który wyświetla zarówno 'listę zakupów' jak i elementy już z niego usunięte '*W koszyku'. Wykorzystuję utworzony prędzej Products, wyświetlający elementy 'done', czyli lista zakupów. **OnPressItem** wykorzystuje **update**, który zmienia wartość i dodaje element do koszyka, czyli kiedy done = true.
 
 ![image-20210510135138176](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510135138176.png)
 
