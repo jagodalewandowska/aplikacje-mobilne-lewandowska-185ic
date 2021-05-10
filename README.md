@@ -20,4 +20,7 @@
 ### Lab 5 - [Obsługa gestów użytkownika](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab5)  
 
 ---
-### Lab 6 - [Obsługa gestów użytkownika](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6) 
+### Lab 6 - [Obsługa obrazów + tryb offline](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab6)  
+
+---
+### Lab 7 - [Wykorzystanie bazy danych w aplikacji mobilnej](https://github.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/tree/master/Lab7)  

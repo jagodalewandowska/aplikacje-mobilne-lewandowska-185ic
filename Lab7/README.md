@@ -34,7 +34,7 @@ Tworzę również funkcję **userForceUpdate**, która ustawia wartości **value
 
 ![image-20210510133319133](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510133319133.png)
 
-W przypadku, kiedy lista produktów jest pusta nie wyświetla żadnych elementów. Funkcja ta zwraca produkty za pomocą funkcji **map() **dla id, done oraz value. 
+W przypadku, kiedy lista produktów jest pusta nie wyświetla żadnych elementów. Funkcja ta zwraca produkty za pomocą funkcji **map()** dla id, done oraz value. 
 
 ![image-20210510133744448](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/image-20210510133744448.png)
 
