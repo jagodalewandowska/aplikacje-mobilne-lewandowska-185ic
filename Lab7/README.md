@@ -83,3 +83,7 @@ Natomiast w koszyku wyświetlane są elementy dla których done wynosi true. W p
 Animacja:
 
 ![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/deleteone.gif)
+
+Prezentacja funkcji, podsumowanie:
+
+![](https://raw.githubusercontent.com/jagodalewandowska/aplikacje-mobilne-lewandowska-185ic/master/Lab7/screenshot/1and2.gif)
